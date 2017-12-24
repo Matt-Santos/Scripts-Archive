@@ -1,0 +1,55 @@
+\documentclass[10pt,landscape,a4paper]{article}
+\usepackage[utf8]{inputenc}
+\usepackage[ngerman]{babel}
+\usepackage{tikz}
+\usetikzlibrary{shapes,positioning,arrows,fit,calc,graphs,graphs.standard}
+\usepackage[nosf]{kpfonts}
+\usepackage[t1]{sourcesanspro}
+\usepackage{multicol}
+\usepackage{wrapfig}
+\usepackage[top=0mm,bottom=1mm,left=0mm,right=1mm]{geometry}
+\usepackage[framemethod=tikz]{mdframed}
+\usepackage{microtype}
+
+%Overall Format Setup
+\let\bar\overline
+\pgfdeclarelayer{background}
+\pgfsetlayers{background,main}
+\renewcommand{\baselinestretch}{.8}
+\pagestyle{empty}
+\global\mdfdefinestyle{header}{%
+linecolor=gray,linewidth=1pt,%
+leftmargin=0mm,rightmargin=0mm,skipbelow=0mm,skipabove=0mm,
+}
+\newcommand{\header}{
+\begin{mdframed}[style=header]
+\footnotesize
+\sffamily
+Custom Formula sheet\\
+by~Matthew~Santos,~page~\thepage~of~2
+\end{mdframed}
+}
+
+%Section Formating Options
+\makeatletter
+\renewcommand{\section}{\@startsection{section}{1}{0mm}%
+                                {.2ex}%
+                                {.2ex}%x
+                                {\color{blue}\sffamily\small\bfseries}}
+\renewcommand{\subsection}{\@startsection{subsection}{1}{0mm}%
+                                {.2ex}%
+                                {.2ex}%x
+                                {\sffamily\bfseries}}
+\makeatother
+\setlength{\parindent}{0pt}
+
+\begin{document}
+\small
+\begin{multicols*}{5}
+\input{PhysicsConstants}
+
+
+
+
+\end{multicols*}
+\end{document}

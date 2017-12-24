@@ -1,0 +1,1 @@
+Time	Ambient Temp.	FC Low	Humidity Heater Temp.	BT Pressure	FC Heater Temp.	FC High	Blow tube Heater Temp.	Blow Tube Flow Temp.	FC Ambient Temp.

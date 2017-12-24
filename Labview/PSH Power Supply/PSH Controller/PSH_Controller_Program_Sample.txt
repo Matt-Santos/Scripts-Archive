@@ -1,0 +1,10 @@
+0	24	10	Off	On
+10	20	15	On	On
+15	24	10	On	On
+25	17	12	On	Off
+35	28	10	On	Off
+45	11	15	On	Off
+55	9	10	On	On
+65	10	12	On	Off
+75	10	12	On	On
+100	30	7	On	Off
