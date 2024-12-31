@@ -1,0 +1,18 @@
+Source: record staffiii/data/002b  Start: [13:20:00.000 28/09/1995]
+val has 9 rows (signals) and 60000 columns (samples/signal)
+Duration:     1:00
+Sampling frequency: 1000 Hz  Sampling interval: 0.001 sec
+Row	Signal	Gain	Base	Units
+1	 V1	1600	0	mV
+2	 V2	1600	0	mV
+3	 V3	1600	0	mV
+4	 V4	1600	0	mV
+5	 V5	1600	0	mV
+6	 V6	1600	0	mV
+7	 I	1600	0	mV
+8	 II	1600	0	mV
+9	 III	1600	0	mV
+
+To convert from raw units to the physical units shown
+above, call the 'rdmat.m' function from the wfdb-matlab
+toolbox: https://physionet.org/physiotools/matlab/wfdb-app-matlab/

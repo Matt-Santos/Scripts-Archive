@@ -1,0 +1,5 @@
+! ----- names for bodies -----
+$ Solid1 = 1
+! ----- names for boundaries -----
+$ bnry2 = 2
+$ bnry3 = 3
