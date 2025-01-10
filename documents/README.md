@@ -1,12 +1,1 @@
-This is my collection of scripts and programs that I have developed to address miscelaneous problems and/or test theories.
-
-Everything is organized into folders based on the ... and can be used for a wide range of purposes, including automation, data processing, analysis, and more.
-
-
-
-
-
-
-Some are still being developed and the majority require documentation. 
-
-
+This repository is a public collection of scripts and programs I’ve developed to solve various problems and test different theories. The content is organized into folders based on either the parent software or the underlying programming language. The scripts cover a wide range of use cases, including automation, data processing, analysis, and more. You are welcome to reuse, modify, and distribute the code. If you have any questions, feel free to reach out.
