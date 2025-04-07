@@ -1,0 +1,8 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP LMX2582
+D RF Synthesizer With Integrated VCO
+F https://content.kemet.com/datasheets/KEM_C1006_X5R_SMD.pdf
+$ENDCMP
+#
+#End Doc Library

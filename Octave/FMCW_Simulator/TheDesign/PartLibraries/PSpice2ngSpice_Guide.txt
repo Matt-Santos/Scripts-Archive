@@ -1,0 +1,11 @@
+#PSpice Conversion Guide
+
+#Add These Conversion Functions
+.func limit(x, y, z) {min(max(x, min(y, z)), max(z, y))}
+.func if(a,b,c) {a ? b : c}
+.PARAM VT=25M
+
+#Remove "PARAMS:" from subckt call statements
+#Ensure subckt call statement parameters are in order and do not have an assignment for instance
+Change This:        XR2_2        THRES THRI   TLC55X_RWELL PARAMS: W=50u L=20u
+To This:            XR2_2        THRES THRI   TLC55X_RWELL 50u 20u
